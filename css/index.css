@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main .sub_main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main .sub_main .content {
+  display: flex;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main .sub_main .content .result {
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+}
+.main .sub_main .content .result h6 {
+  font-size: 1.8em;
+  padding: 10px;
+}
+.main .sub_main .content .result h5 {
+  font-size: 2.5em;
+  padding: 10px;
+}
+.main .sub_main .content .result p {
+  text-align: center;
+  font-size: 1.2em;
+}
+.main .sub_main .content .result .circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(180deg, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+.main .sub_main .content .result .circle h1 {
+  font-size: 4em;
+}
+.main .sub_main .content .summary {
+  padding: 20px;
+}
+.main .sub_main .content .summary h1 {
+  text-align: start;
+  font-weight: 700;
+  padding: 10px;
+}
+.main .sub_main .content .summary .reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 33%, 93%);
+}
+.main .sub_main .content .summary .memory {
+  background-color: hsl(37, 69%, 91%);
+  color: hsl(39, 100%, 56%);
+}
+.main .sub_main .content .summary .Verbal {
+  background-color: hsl(167, 54%, 88%);
+  color: hsl(166, 100%, 37%);
+}
+.main .sub_main .content .summary .visual {
+  background-color: hsl(234, 66%, 85%);
+  color: hsl(234, 85%, 45%);
+}
+.main .sub_main .content .summary .reaction, .main .sub_main .content .summary .memory, .main .sub_main .content .summary .Verbal, .main .sub_main .content .summary .visual, .main .sub_main .content .summary .continue {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.main .sub_main .content .summary .reaction div, .main .sub_main .content .summary .memory div, .main .sub_main .content .summary .Verbal div, .main .sub_main .content .summary .visual div, .main .sub_main .content .summary .continue div {
+  display: flex;
+}
+.main .sub_main .content .summary .reaction div img, .main .sub_main .content .summary .memory div img, .main .sub_main .content .summary .Verbal div img, .main .sub_main .content .summary .visual div img, .main .sub_main .content .summary .continue div img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.main .sub_main .content .summary .reaction div h6, .main .sub_main .content .summary .memory div h6, .main .sub_main .content .summary .Verbal div h6, .main .sub_main .content .summary .visual div h6, .main .sub_main .content .summary .continue div h6 {
+  font-size: 1.2em;
+  margin: 5px;
+}
+.main .sub_main .content .summary .reaction p, .main .sub_main .content .summary .memory p, .main .sub_main .content .summary .Verbal p, .main .sub_main .content .summary .visual p, .main .sub_main .content .summary .continue p {
+  font-size: 1.4em;
+  color: hsl(224, 30%, 27%);
+}
+.main .sub_main .content .summary .continue button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: hsl(224, 30%, 27%);
+  width: 200px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.2em;
+}
